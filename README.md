@@ -11,27 +11,27 @@ This project shows how to build a RESTful API using Node.js and PostgreSQL. User
 
 ### CRUD operations with users
 
-- `POST --> /user`  
+- `POST --> /users`  
   Create a new user
 
 - `GET --> /users`  
   Get all users
   
-- `GET --> /user/:id`  
+- `GET --> /users/:id`  
   Get one user
 
-- `PUT --> /user`  
+- `PUT --> /users`  
   Update user
 
 - `DELETE --> /users`  
   Delete all users
 
-- `DELETE --> /user/:id`  
+- `DELETE --> /users/:id`  
   Delete one user by id
 
 ### CRUD operations with posts
 
-- `POST --> /post`  
+- `POST --> /posts`  
   Create a new post with optional userId (to assign this post to an user)
 
 - `GET --> /posts/user?id=number`  
@@ -40,16 +40,16 @@ This project shows how to build a RESTful API using Node.js and PostgreSQL. User
 - `GET --> /posts`
   Get all posts
 
-- `GET --> /post/:id`
+- `GET --> /posts/:id`
   Get one post by id
 
-- `PUT --> /post`  
+- `PUT --> /posts`  
   Update post
 
 - `DELETE --> /posts`  
   Delete all posts
 
-- `DELETE --> /post/:id`  
+- `DELETE --> /posts/:id`  
   Delete one post by id
 
 ## Installation
