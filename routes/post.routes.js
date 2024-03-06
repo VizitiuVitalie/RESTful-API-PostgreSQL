@@ -3,7 +3,7 @@ const router = new Router();
 const postController = require("../controllers/post.controller");
 
 router.post("/post", postController.createPost);
-router.get("/post/user", postController.getPostsByUser);
+router.get("/posts/user", postController.getPostsByUser);
 router.get("/posts", postController.getAllPosts);
 router.get("/post/:id", postController.getOnePost);
 router.put("/post", postController.updatePost);
