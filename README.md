@@ -17,7 +17,7 @@ This project shows how to build a RESTful API using Node.js and PostgreSQL. User
 - `GET --> /users`  
   Get all users
   
-- `GET --> /user/:id`
+- `GET --> /user/:id`  
   Get one user
 
 - `PUT --> /user`  
