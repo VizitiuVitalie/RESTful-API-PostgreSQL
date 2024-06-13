@@ -55,7 +55,7 @@ This project shows how to build a RESTful API using Node.js and PostgreSQL. User
 ## Installation
 
 1. Clone the repository:
-   - git clone https://github.com/VitaliyV444/RESTful-API-PostgreSQL.git
+   - git clone https://github.com/VizitiuVitalie/RESTful-API-PostgreSQL.git
    
 2. Install dependencies:
    - cd RESTful-API-PostgreSQL
